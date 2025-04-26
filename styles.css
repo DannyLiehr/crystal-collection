@@ -1,0 +1,75 @@
+:root{
+    --fuchsia: #750042;
+    --magenta: #8C1675;
+    --purple: #62007A;
+    --navy: #04007A;
+    --blue: #0037B8;
+    --teal: #008F70;
+}
+.darkmode {
+    color-scheme: dark;
+    transition: 1s;
+}
+.lightmode {
+    color-scheme: light;
+    transition: 1s;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Colour Classes */
+.red {
+    color: red;
+}
+.orange {
+    color: orange;
+}
+.yellow {
+    color: goldenrod;
+}
+.green {
+    color: darkolivegreen;
+}
+.blue {
+    color: dodgerblue;
+}
+.light-blue{
+    color: rgb(101, 196, 255);
+}
+.cyan {
+    color: teal;
+}
+.purple {
+    color: purple;
+}
+.pink {
+    color: #e0218a;
+}
+.brown{
+    color: rgb(146, 73, 0);
+}
+.grey{
+    color: rgb(86, 86, 86);
+}
+.black {
+    color: #1c2841;
+}
+.white {
+    color: #b4abb8;
+}
+.rainbow {
+    background-image: radial-gradient(circle, violet, purple, blue, green, goldenrod, orange, red);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+/* HTML elements */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
